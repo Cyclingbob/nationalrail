@@ -4,7 +4,7 @@
 
 const fetch = require('node-fetch')
 const parseString = require('xml2js').parseString
-const config = require('../../config')
+const config = require('../config')
 
 fetch(`https://opendata.nationalrail.co.uk/authenticate?username=${config.email}&password=${config.password}`, {
     method: 'POST',
