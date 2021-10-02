@@ -1,6 +1,6 @@
 // ©Cyclingbob 2021. All rights reserved. This material must not be copied and redistributed under any conditions, with or without commerical gain. Exceptions only apply where exclusive permission has been granted.
 // 2nd October 2021
-// This code generates a token to access the National Rail Open Data API (https://opendata.nationalrail.co.uk/) and then uses this to get the current ongoing incidents happening right now. The output is a JavaScript object. I have written it so the first Incident in the list is logged into the console.
+// This code generates a token to access the National Rail Open Data API (https://opendata.nationalrail.co.uk/) and then uses this to get the current ongoing incidents happening right now. The output is a JavaScript object. I have written it so the first Incident in the list is logged into the console. The result is a JavaScript Object
 
 const fetch = require('node-fetch')
 const parseString = require('xml2js').parseString
